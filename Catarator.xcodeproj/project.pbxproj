@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C6CE08B2CCEA7A0005FD85F /* ConcerteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcerteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6CE08B2CCEA7A0005FD85F /* Catarator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catarator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6CE08E2CCEA7A0005FD85F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C6CE0902CCEA7A0005FD85F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9C6CE0922CCEA7A0005FD85F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +27,10 @@
 		9C6CE09C2CCEA7A1005FD85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CAEC4772CD1029900E21E68 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		228B6D722CD7F24A002C9D8F /* TextedCat */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TextedCat; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9C6CE0882CCEA7A0005FD85F /* Frameworks */ = {
@@ -42,7 +46,7 @@
 		9C6CE0822CCEA7A0005FD85F = {
 			isa = PBXGroup;
 			children = (
-				9C6CE08D2CCEA7A0005FD85F /* ConcerteApp */,
+				9C6CE08D2CCEA7A0005FD85F /* Catarator */,
 				9C6CE08C2CCEA7A0005FD85F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +54,12 @@
 		9C6CE08C2CCEA7A0005FD85F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C6CE08B2CCEA7A0005FD85F /* ConcerteApp.app */,
+				9C6CE08B2CCEA7A0005FD85F /* Catarator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C6CE08D2CCEA7A0005FD85F /* ConcerteApp */ = {
+		9C6CE08D2CCEA7A0005FD85F /* Catarator */ = {
 			isa = PBXGroup;
 			children = (
 				9C6CE0A32CD0EF6A005FD85F /* Scene */,
@@ -65,7 +69,7 @@
 				9C6CE0992CCEA7A1005FD85F /* LaunchScreen.storyboard */,
 				9C6CE09C2CCEA7A1005FD85F /* Info.plist */,
 			);
-			path = ConcerteApp;
+			path = Catarator;
 			sourceTree = "<group>";
 		};
 		9C6CE0A22CD0EF60005FD85F /* Welcome */ = {
@@ -80,6 +84,7 @@
 		9C6CE0A32CD0EF6A005FD85F /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				228B6D722CD7F24A002C9D8F /* TextedCat */,
 				9CAEC4762CD1028700E21E68 /* TabBar */,
 				9C6CE0A22CD0EF60005FD85F /* Welcome */,
 			);
@@ -97,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C6CE08A2CCEA7A0005FD85F /* ConcerteApp */ = {
+		9C6CE08A2CCEA7A0005FD85F /* Catarator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C6CE09F2CCEA7A1005FD85F /* Build configuration list for PBXNativeTarget "ConcerteApp" */;
+			buildConfigurationList = 9C6CE09F2CCEA7A1005FD85F /* Build configuration list for PBXNativeTarget "Catarator" */;
 			buildPhases = (
 				9C6CE0872CCEA7A0005FD85F /* Sources */,
 				9C6CE0882CCEA7A0005FD85F /* Frameworks */,
@@ -109,9 +114,12 @@
 			);
 			dependencies = (
 			);
-			name = ConcerteApp;
+			fileSystemSynchronizedGroups = (
+				228B6D722CD7F24A002C9D8F /* TextedCat */,
+			);
+			name = Catarator;
 			productName = ConcerteApp;
-			productReference = 9C6CE08B2CCEA7A0005FD85F /* ConcerteApp.app */;
+			productReference = 9C6CE08B2CCEA7A0005FD85F /* Catarator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C6CE0862CCEA7A0005FD85F /* Build configuration list for PBXProject "ConcerteApp" */;
+			buildConfigurationList = 9C6CE0862CCEA7A0005FD85F /* Build configuration list for PBXProject "Catarator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C6CE08A2CCEA7A0005FD85F /* ConcerteApp */,
+				9C6CE08A2CCEA7A0005FD85F /* Catarator */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +330,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ConcerteApp/Info.plist;
+				INFOPLIST_FILE = Catarator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -350,7 +358,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ConcerteApp/Info.plist;
+				INFOPLIST_FILE = Catarator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -372,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C6CE0862CCEA7A0005FD85F /* Build configuration list for PBXProject "ConcerteApp" */ = {
+		9C6CE0862CCEA7A0005FD85F /* Build configuration list for PBXProject "Catarator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C6CE09D2CCEA7A1005FD85F /* Debug */,
@@ -381,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C6CE09F2CCEA7A1005FD85F /* Build configuration list for PBXNativeTarget "ConcerteApp" */ = {
+		9C6CE09F2CCEA7A1005FD85F /* Build configuration list for PBXNativeTarget "Catarator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C6CE0A02CCEA7A1005FD85F /* Debug */,

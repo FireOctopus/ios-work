@@ -13,6 +13,8 @@ class WelcomeViewController: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var statusLabel: UILabel!
     
+    @IBOutlet weak var generationButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -35,6 +37,7 @@ class WelcomeViewController: UIViewController {
                 self?.catImageView.image = UIImage(data: data)
                 self?.statusLabel.text = "Загрузка кота закончена"
                 self?.activityIndicator.stopAnimating()
+                self?.generationButton.isEnabled = true
             }
         }
         
@@ -45,6 +48,7 @@ class WelcomeViewController: UIViewController {
     @IBAction func didTapButton(_ sender: Any) {
         activityIndicator.startAnimating()
         statusLabel.text = "Начинаю загрузку кота!"
+        generationButton.isEnabled = false
         downloadCat()
     }
 }
